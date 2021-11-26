@@ -1,0 +1,41 @@
+_id: req_4bcfc4beefd04fd8aaa67e7dce0c6e0b
+type: Request
+parentId: fld_f2fa8e3f923f4f829e9002a781f77ac0
+modified: 1637966001205
+created: 1637966001205
+url: http://localhost:4000/api/borders/
+name: CreateBorder
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "sic_code": "FRT290",
+        "market_id": 1,
+        "border_type": "exportacion",
+        "name": "CH Amaime",
+        "bar_type": "Cerrito 115Kv",
+        "adms_code": "123",
+        "resource": "PCH",
+        "is_not_regulated_market": true,
+        "is_embedded_market": true,
+        "is_industrial_client": true,
+        "latitude": "1234.65",
+        "longitude": "654.12.65",
+        "description": "Mi primera frontera"    
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_1dcb9b1967434e0d94a55f365f0dce8f
+authentication: {}
+metaSortKey: -1637707220363
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

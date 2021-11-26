@@ -1,0 +1,29 @@
+_id: req_b1a6417163884eb6a4c76a898f54191a
+type: Request
+parentId: fld_5cac12870c9047828a3841a98bcadf89
+modified: 1637966005323
+created: 1637966005323
+url: http://localhost:4000/api/markets/1
+name: UpdateMarket
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "name": "Tolimaso"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_aae820a7b7ba4174a336c2edf45b780d
+authentication: {}
+metaSortKey: -1637770506313
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

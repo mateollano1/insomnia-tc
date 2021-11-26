@@ -1,0 +1,29 @@
+_id: req_d6e42bffbde04782abe2acbc8193fb56
+type: Request
+parentId: fld_f2fa8e3f923f4f829e9002a781f77ac0
+modified: 1637966001207
+created: 1637966001207
+url: http://localhost:4000/api/borders/FRT225
+name: UpdtaeBorder
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "border_type": "importa"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5b0497cdcf98445e923156b92502c6aa
+authentication: {}
+metaSortKey: -1637707220338
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

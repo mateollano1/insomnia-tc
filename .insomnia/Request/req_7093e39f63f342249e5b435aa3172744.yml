@@ -1,0 +1,30 @@
+_id: req_7093e39f63f342249e5b435aa3172744
+type: Request
+parentId: fld_1566d941c15541c0a5e2a17f4e13b337
+modified: 1637965995345
+created: 1637965995345
+url: http://localhost:4000/api/categories
+name: CreateCategory
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "name": "Celsia",
+        "description": "Primer Market"  
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5d47b6c6a98b4340a3cba5864afc7498
+authentication: {}
+metaSortKey: -1637965140629
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
