@@ -1,0 +1,41 @@
+_id: req_8b0628847498433389ceab636e2cb9b4
+type: Request
+parentId: fld_5185f6e9604b45d2b3e7302507ce4577
+modified: 1637969160159
+created: 1637969160159
+url: http://localhost:4000/api/category/types
+name: ListCategoryTypes
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_cd7f355276604ccc919d27d5f2aa23cc
+    name: name
+    value: Celsia
+    description: ""
+    disabled: true
+  - id: pair_ebe9fcd9744c46dd9090d5685064bcb0
+    name: description
+    value: Primer Market
+    description: ""
+    disabled: true
+  - id: pair_ba169151738542819b3a6eb054c272c0
+    name: category_id
+    value: "1"
+    description: ""
+    disabled: true
+  - id: pair_289cd72d525b42d1993b4653162bb740
+    name: created_at
+    value: 2021-11-26T22:40:48.810Z
+    description: ""
+    disabled: true
+headers: []
+authentication: {}
+metaSortKey: -1637966340763
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

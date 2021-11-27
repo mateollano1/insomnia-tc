@@ -1,0 +1,29 @@
+_id: req_6a24dfb3ea2f44d38ec4ced20a6f3bcd
+type: Request
+parentId: fld_5185f6e9604b45d2b3e7302507ce4577
+modified: 1637969160161
+created: 1637969160161
+url: http://localhost:4000/api/category/types/2
+name: UpdateCategoryType
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"category_id": "1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_fea8d0b28ae0476daf2c6664ff09d2ee
+authentication: {}
+metaSortKey: -1637966583491
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

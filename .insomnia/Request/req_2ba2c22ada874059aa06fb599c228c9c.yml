@@ -1,7 +1,7 @@
 _id: req_2ba2c22ada874059aa06fb599c228c9c
 type: Request
 parentId: fld_f2fa8e3f923f4f829e9002a781f77ac0
-modified: 1637966001203
+modified: 1637973904268
 created: 1637966001203
 url: http://localhost:4000/api/borders
 name: ListBorder
@@ -11,7 +11,7 @@ body: {}
 parameters:
   - id: pair_7223d19728e3453c83dab255138518af
     name: market_id
-    value: "4"
+    value: "1"
     description: ""
     disabled: true
   - id: pair_ff45eadbc43f49c6a1fac36c651272a8
@@ -29,13 +29,18 @@ parameters:
     value: ""
     description: ""
     disabled: true
-  - id: pair_98fcd68294764be9a428fa88bf148a68
-    name: bar_type
+  - id: pair_5997801fa0ec4e42b2db829e54476dd3
+    name: adms_code
     value: ""
     description: ""
     disabled: true
-  - id: pair_5997801fa0ec4e42b2db829e54476dd3
-    name: adms_code
+  - id: pair_8d99e05fa0354bc3a68fe253de6cb447
+    name: mdm_code
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_98fcd68294764be9a428fa88bf148a68
+    name: bar_type
     value: ""
     description: ""
     disabled: true
@@ -44,18 +49,23 @@ parameters:
     value: ""
     description: ""
     disabled: true
+  - id: pair_379d2ed890794d6384fb4a9f806698dc
+    name: state_variable
+    value: ""
+    description: ""
+    disabled: true
   - id: pair_736991a25a1e446ea77dfbc2b1cf333c
-    name: is_not_regulated_market
+    name: category_id
     value: ""
     description: ""
     disabled: true
   - id: pair_099274a6e2074dd58c5f2c34ece00bfd
-    name: is_embedded_market
+    name: category_type_id
     value: ""
     description: ""
     disabled: true
   - id: pair_4b7b585f3fbf4cf791a6b7a064b11a1f
-    name: is_industrial_client
+    name: category_subtype_id
     value: ""
     description: ""
     disabled: true
