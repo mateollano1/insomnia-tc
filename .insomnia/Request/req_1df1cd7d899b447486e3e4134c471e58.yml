@@ -1,9 +1,9 @@
 _id: req_1df1cd7d899b447486e3e4134c471e58
 type: Request
 parentId: fld_5185f6e9604b45d2b3e7302507ce4577
-modified: 1637969160165
+modified: 1638212544908
 created: 1637969160165
-url: http://localhost:4000/api/category/types/5
+url: http://localhost:4000/api/category/types/4
 name: DeleteCategoryType
 description: ""
 method: DELETE

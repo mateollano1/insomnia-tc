@@ -1,7 +1,7 @@
 _id: req_1f2fc9d56c1f4d8c9c18a08f34c1a74f
 type: Request
 parentId: fld_cce2633d172c4771bf1c0dd88bc7800f
-modified: 1638202575188
+modified: 1638212477943
 created: 1638196658495
 url: http://localhost:4000/api/category/subtypes
 name: CreateSubtype
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name": "Hidraulica",
-    	"description": "Primer Market",
+    	"name": "Embalse",
+    	"description": "Primer SubTipo",
     	"type_id": "1"
     }
 parameters: []

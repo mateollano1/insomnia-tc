@@ -1,14 +1,29 @@
 _id: req_cdaae7d28e6b41f4a4380c1cc285897e
 type: Request
 parentId: fld_1566d941c15541c0a5e2a17f4e13b337
-modified: 1637965995343
+modified: 1638228810140
 created: 1637965995343
 url: http://localhost:4000/api/categories
 name: ListCategory
 description: ""
 method: GET
 body: {}
-parameters: []
+parameters:
+  - id: pair_0aa2fa3bd31545fb9a2452064fecbf9f
+    name: name
+    value: Generación
+    description: ""
+    disabled: true
+  - id: pair_3d8bc9e142424d04bd88905f4aac46ab
+    name: description
+    value: Primer Market
+    description: ""
+    disabled: true
+  - id: pair_5d7b0df56b6e4385ab992a4a8b1eedf2
+    name: ""
+    value: 2021-11-29T18:19:30.798Z
+    description: ""
+    disabled: true
 headers: []
 authentication: {}
 metaSortKey: -1637965116249

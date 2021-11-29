@@ -1,7 +1,7 @@
 _id: req_4bcfc4beefd04fd8aaa67e7dce0c6e0b
 type: Request
 parentId: fld_f2fa8e3f923f4f829e9002a781f77ac0
-modified: 1638201946853
+modified: 1638222181717
 created: 1637966001205
 url: http://localhost:4000/api/boundaries
 name: CreateBoundary
@@ -22,7 +22,7 @@ body:
     	"state_variable": "disponible",
     	"category_id": 1,
     	"category_type_id": 1,
-    	"category_subtype_id": 1,
+    	"category_subtype_id": 2,
     	"latitude": "1234.65",
     	"longitude": "654.12.65",
     	"description": "Mi primera frontera"    

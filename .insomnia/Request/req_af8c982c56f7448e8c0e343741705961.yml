@@ -1,7 +1,7 @@
 _id: req_af8c982c56f7448e8c0e343741705961
 type: Request
 parentId: fld_5185f6e9604b45d2b3e7302507ce4577
-modified: 1638196601147
+modified: 1638212386074
 created: 1637969160157
 url: http://localhost:4000/api/category/types
 name: CreateCategoryType
@@ -11,9 +11,9 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name": "Hidraulica",
-    	"description": "Primer Market",
-    	"category_id": "1"
+    	"name": "No Regulado",
+    	"description": "Primer Tipo",
+    	"category_id": "2"
     }
 parameters: []
 headers:
