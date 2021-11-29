@@ -1,10 +1,10 @@
 _id: req_2ba2c22ada874059aa06fb599c228c9c
 type: Request
 parentId: fld_f2fa8e3f923f4f829e9002a781f77ac0
-modified: 1637973904268
+modified: 1638201768301
 created: 1637966001203
-url: http://localhost:4000/api/borders
-name: ListBorder
+url: http://localhost:4000/api/boundaries
+name: ListBoundary
 description: ""
 method: GET
 body: {}

@@ -1,25 +1,27 @@
-_id: req_d6e42bffbde04782abe2acbc8193fb56
+_id: req_bbafa2f32d644f079b156872c4c23071
 type: Request
-parentId: fld_f2fa8e3f923f4f829e9002a781f77ac0
-modified: 1638202112024
-created: 1637966001207
-url: http://localhost:4000/api/boundaries/FRT2
-name: UpdtaeBoundary
+parentId: fld_cce2633d172c4771bf1c0dd88bc7800f
+modified: 1638202634180
+created: 1638202585585
+url: http://localhost:4000/api/category/subtypes/2
+name: UpdateSubType
 description: ""
 method: PATCH
 body:
   mimeType: application/json
   text: |-
     {
-      "boundary_type": "importacion"
+    	"name": "Hidraulica",
+    	"description": "Primer SubTiy",
+    	"type_id": "1"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_5b0497cdcf98445e923156b92502c6aa
+    id: pair_d91ad63008b841f9a6449a0f344c3281
 authentication: {}
-metaSortKey: -1637707220338
+metaSortKey: -1638202585585
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

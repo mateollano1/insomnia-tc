@@ -1,25 +1,26 @@
-_id: req_d6e42bffbde04782abe2acbc8193fb56
+_id: req_73082b196c6d470bb9421165abf9b7ba
 type: Request
-parentId: fld_f2fa8e3f923f4f829e9002a781f77ac0
-modified: 1638202112024
-created: 1637966001207
-url: http://localhost:4000/api/boundaries/FRT2
-name: UpdtaeBoundary
+parentId: fld_1566d941c15541c0a5e2a17f4e13b337
+modified: 1638202741223
+created: 1638202684345
+url: http://localhost:4000/api/categories/1
+name: UpdateCategory
 description: ""
 method: PATCH
 body:
   mimeType: application/json
   text: |-
     {
-      "boundary_type": "importacion"
+        "name": "Generacion",
+        "description": "Primer Market"  
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_5b0497cdcf98445e923156b92502c6aa
+    id: pair_c57f9204e02a41b7bbe4e3f242b9c095
 authentication: {}
-metaSortKey: -1637707220338
+metaSortKey: -1638202684345
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
