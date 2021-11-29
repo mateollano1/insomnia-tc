@@ -1,10 +1,10 @@
-_id: req_af8c982c56f7448e8c0e343741705961
+_id: req_1f2fc9d56c1f4d8c9c18a08f34c1a74f
 type: Request
-parentId: fld_5185f6e9604b45d2b3e7302507ce4577
-modified: 1638196601147
-created: 1637969160157
-url: http://localhost:4000/api/category/types
-name: CreateCategoryType
+parentId: fld_cce2633d172c4771bf1c0dd88bc7800f
+modified: 1638196728260
+created: 1638196658495
+url: http://localhost:4000/api/category/subtypes
+name: CreateSubtype
 description: ""
 method: POST
 body:
@@ -13,15 +13,15 @@ body:
     {
     	"name": "Hidraulica",
     	"description": "Primer Market",
-    	"category_id": "1"
+    	"type_id": "1"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_5d47b6c6a98b4340a3cba5864afc7498
+    id: pair_b8111b79fb1249fbbe82eeef221948c7
 authentication: {}
-metaSortKey: -1637965128439
+metaSortKey: -1638196658495
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
