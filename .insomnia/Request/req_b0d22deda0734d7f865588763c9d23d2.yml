@@ -1,0 +1,38 @@
+_id: req_b0d22deda0734d7f865588763c9d23d2
+type: Request
+parentId: fld_526167a887114cfd93db9f80b5717cee
+modified: 1638834383676
+created: 1638834332410
+url: http://localhost:4000/api/networkoperators
+name: ListNetworkOperator
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_ccbda758023c47f1aa69228e2522164e
+    name: name
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_0a4db5c4b29c43cb8d64d06e82f6c4b3
+    name: description
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_4ff78ffbcdb64ade9147b3f8b4206bb9
+    name: created_at
+    value: ""
+    description: ""
+    type: text
+    multiline: false
+    disabled: true
+headers: []
+authentication: {}
+metaSortKey: -1637770506288
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
