@@ -1,0 +1,29 @@
+_id: req_59b8a7c8d082415ca073e2b5dc37a571
+type: Request
+parentId: fld_f4a0b380a9474ffaae190b0e735d0e8a
+modified: 1638828693805
+created: 1638824192812
+url: http://localhost:4000/api/statuses/4
+name: UpdateStatus
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "name": "Bad"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_aae820a7b7ba4174a336c2edf45b780d
+authentication: {}
+metaSortKey: -1637770506313
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

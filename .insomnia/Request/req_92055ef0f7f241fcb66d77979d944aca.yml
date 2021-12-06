@@ -1,0 +1,32 @@
+_id: req_92055ef0f7f241fcb66d77979d944aca
+type: Request
+parentId: fld_107feba87ec04710bcfc35d67bbbfcdd
+modified: 1638830992750
+created: 1638830872410
+url: http://localhost:4000/api/usetypes
+name: CreateUseType
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "The type",
+    	"code": 7,
+    	"description": "The first use type",
+    	"external_code":"typ456"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f41800a41a484bfcb92057135240b14a
+authentication: {}
+metaSortKey: -1637770506238
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

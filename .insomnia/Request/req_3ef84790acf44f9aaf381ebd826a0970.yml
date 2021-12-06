@@ -1,0 +1,29 @@
+_id: req_3ef84790acf44f9aaf381ebd826a0970
+type: Request
+parentId: fld_107feba87ec04710bcfc35d67bbbfcdd
+modified: 1638830986367
+created: 1638830872399
+url: http://localhost:4000/api/usetypes/1
+name: UpdateUseType
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "name": "Super Type"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_aae820a7b7ba4174a336c2edf45b780d
+authentication: {}
+metaSortKey: -1637770506313
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
