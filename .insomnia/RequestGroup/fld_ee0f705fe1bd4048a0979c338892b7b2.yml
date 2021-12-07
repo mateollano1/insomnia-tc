@@ -1,0 +1,10 @@
+_id: fld_ee0f705fe1bd4048a0979c338892b7b2
+type: RequestGroup
+parentId: wrk_1f7e05e6e9784c71b4366e08904c621f
+modified: 1638888661614
+created: 1638888661614
+name: InternBoundaryType
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -118.75

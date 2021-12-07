@@ -1,0 +1,30 @@
+_id: req_8ee795161c374888befc4357448b5b66
+type: Request
+parentId: fld_606bccd843f545848669104d27edac44
+modified: 1638893954870
+created: 1638893854371
+url: http://localhost:4000/api/generationtypes
+name: CreateGenerationType
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "name": "Medallo",
+        "description": "Genera energia"  
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f41800a41a484bfcb92057135240b14a
+authentication: {}
+metaSortKey: -1637770506238
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

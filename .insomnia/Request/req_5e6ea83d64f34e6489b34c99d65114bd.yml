@@ -1,0 +1,29 @@
+_id: req_5e6ea83d64f34e6489b34c99d65114bd
+type: Request
+parentId: fld_606bccd843f545848669104d27edac44
+modified: 1638893963028
+created: 1638893854363
+url: http://localhost:4000/api/generationtypes/2
+name: UpdateGenerationType
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "name": "Tolimaso"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_aae820a7b7ba4174a336c2edf45b780d
+authentication: {}
+metaSortKey: -1637770506313
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
