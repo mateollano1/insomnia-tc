@@ -1,0 +1,36 @@
+_id: req_aa8b86b616624b838110fe3c286a174b
+type: Request
+parentId: fld_4d01190d6a0748cbb37b08a1d1da735e
+modified: 1638916608901
+created: 1638907889229
+url: http://localhost:4000/api/tension-levels
+name: CreateTensionlevel
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "name": "Cogenerador",
+        "description": "Primer categoria",
+    		"external_code": "Ad1223",
+    	  "init_range": 123,
+    		"end_range": 21,
+    		"description": "Segundo ejemplo",
+    		"created_at": "2021-11-30T16:29:35.400Z"
+    	
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_24d390a3da044ba1a0ae71d12ff2e216
+authentication: {}
+metaSortKey: -1638907889229
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,34 @@
+_id: req_890224df82da44cfa8db45e83ef1943e
+type: Request
+parentId: fld_9036358cc1604e868f8d47c3811bc737
+modified: 1638909741205
+created: 1638841685189
+url: http://localhost:4000/api/xm-agents/1
+name: UpdateXmAgent
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "name": "Ejemplo",
+        "description": "X categoria",
+    		"external_code": "A1223",
+    		"description": "Segundo ejemplo",
+    		"created_at": "2019-11-30T16:29:35.400Z"
+    	
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_44b65e05a51d413e8239ebc696d2379b
+authentication: {}
+metaSortKey: -1638841685189
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_bd4b9a057c6d4478be412723fabd8334
+type: Request
+parentId: fld_4d01190d6a0748cbb37b08a1d1da735e
+modified: 1638917104169
+created: 1638908069828
+url: http://localhost:4000/api/tension-levels/1
+name: UpdateTensionLevel
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "name": "Cogenerador",
+        "description": "Primer categoria",
+    		"external_code": "Ad1223"
+    	
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_75c2bfcdd24144389fa93422de00c434
+authentication: {}
+metaSortKey: -1638908069828
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

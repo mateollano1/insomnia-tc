@@ -1,0 +1,35 @@
+_id: req_3d5813b7da2e45a1ba247ed0b047bc4c
+type: Request
+parentId: fld_0ff2c49c9c064f0b87fd6dffe05f849b
+modified: 1638917117142
+created: 1638916584104
+url: http://localhost:4000/api/bars
+name: Createbar
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "code_bar": 12,
+        "description": "Primer categoria",
+    		"code_bar_xm": "Ad1223",
+    	  "substation": "Celcia Cali",
+    	  "status": "Activo",
+    		"tension_level": "12"
+    	
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7897f86958334fe69b34e26a3d8a8cb3
+authentication: {}
+metaSortKey: -1638916584104
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

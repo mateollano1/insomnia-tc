@@ -1,0 +1,29 @@
+_id: req_0f788d5f2e954099b3270ecb548d6ee8
+type: Request
+parentId: fld_7ad9995a7700420a8601738b525a59b2
+modified: 1638910023593
+created: 1638891393562
+url: http://localhost:4000/api/zones/1
+name: UpdateZone
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "name": "Zone 32131"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_71304859baa04d66b65698f49cdc065f
+authentication: {}
+metaSortKey: -1638891393562
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
