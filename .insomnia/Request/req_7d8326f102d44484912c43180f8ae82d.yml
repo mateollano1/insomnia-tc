@@ -1,26 +1,27 @@
-_id: req_fe0e00cd066a43c5a1c0b4ef7a7aebf4
+_id: req_7d8326f102d44484912c43180f8ae82d
 type: Request
-parentId: fld_ef49b6e940e343b084a335199d65d6ea
-modified: 1639080769572
-created: 1639057305521
-url: http://localhost:4000/api/bar-x-boundaries
-name: CreateBarXBoundary
+parentId: fld_07303cd7589448ac81b698544c9cffbf
+modified: 1639077939825
+created: 1639077895373
+url: http://localhost:4000/api/cities/2
+name: UpdateCity
 description: ""
-method: POST
+method: PATCH
 body:
   mimeType: application/json
   text: |-
     {
-    	"id_bar": 2,
-    	"id_boundary": 5
+        "code_bar": 12,
+        "description": "Segunda categoria"
+    		
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_7897f86958334fe69b34e26a3d8a8cb3
+    id: pair_a3b5c71de6f747c1a90020b70fbc920c
 authentication: {}
-metaSortKey: -1638916584104
+metaSortKey: -1638917101521
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

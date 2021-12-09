@@ -1,18 +1,21 @@
-_id: req_fe0e00cd066a43c5a1c0b4ef7a7aebf4
+_id: req_f4cd0b9c969b4bc1aa5edcf1ad7891f9
 type: Request
-parentId: fld_ef49b6e940e343b084a335199d65d6ea
-modified: 1639080769572
-created: 1639057305521
-url: http://localhost:4000/api/bar-x-boundaries
-name: CreateBarXBoundary
+parentId: fld_07303cd7589448ac81b698544c9cffbf
+modified: 1639078085116
+created: 1639077895370
+url: http://localhost:4000/api/cities
+name: CreateCity
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"id_bar": 2,
-    	"id_boundary": 5
+        "code": 12,
+        "name": "Medellin",
+        "description": "Primer categoria",
+        "external_code": "Code",
+    		"department_code": "12"	
     }
 parameters: []
 headers:

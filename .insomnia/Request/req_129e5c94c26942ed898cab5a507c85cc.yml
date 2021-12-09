@@ -1,26 +1,27 @@
-_id: req_fe0e00cd066a43c5a1c0b4ef7a7aebf4
+_id: req_129e5c94c26942ed898cab5a507c85cc
 type: Request
-parentId: fld_ef49b6e940e343b084a335199d65d6ea
-modified: 1639080769572
-created: 1639057305521
-url: http://localhost:4000/api/bar-x-boundaries
-name: CreateBarXBoundary
+parentId: fld_e25363040ce244558416030952284653
+modified: 1639078153093
+created: 1639078110090
+url: http://localhost:4000/api/departments/2
+name: UpdateDepartment
 description: ""
-method: POST
+method: PATCH
 body:
   mimeType: application/json
   text: |-
     {
-    	"id_bar": 2,
-    	"id_boundary": 5
+        "code_bar": 12,
+        "description": "Segunda categoria"
+    		
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_7897f86958334fe69b34e26a3d8a8cb3
+    id: pair_a3b5c71de6f747c1a90020b70fbc920c
 authentication: {}
-metaSortKey: -1638916584104
+metaSortKey: -1638917101521
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
