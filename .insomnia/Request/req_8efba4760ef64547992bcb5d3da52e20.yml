@@ -1,9 +1,9 @@
 _id: req_8efba4760ef64547992bcb5d3da52e20
 type: Request
 parentId: fld_526167a887114cfd93db9f80b5717cee
-modified: 1638891293250
+modified: 1639068817393
 created: 1638834332414
-url: http://localhost:4000/api/networkoperators
+url: http://localhost:4000/api/network-operators
 name: CreateNetworkOperator
 description: ""
 method: POST

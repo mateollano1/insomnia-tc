@@ -1,7 +1,7 @@
 _id: req_1397d95af5c44439aeedd3e0ce9790f4
 type: Request
 parentId: fld_a881ff88e69f451481a703462c28cf88
-modified: 1638909292163
+modified: 1639068692434
 created: 1638832111977
 url: http://localhost:4000/api/xm-boundary-types
 name: CreateXmBoundaryType

@@ -1,7 +1,7 @@
 _id: req_4bcfc4beefd04fd8aaa67e7dce0c6e0b
 type: Request
 parentId: fld_f2fa8e3f923f4f829e9002a781f77ac0
-modified: 1638222181717
+modified: 1639069830402
 created: 1637966001205
 url: http://localhost:4000/api/boundaries
 name: CreateBoundary
@@ -12,20 +12,35 @@ body:
   text: |-
     {
     	"sic_code": "FRT2",
-    	"market_id": 1,
-    	"boundary_type": "exportacion",
-    	"name": "CH Amaime",
-    	"adms_code": "123",
-    	"mdm_code": "123",
-    	"bar_type": "Cerrito 115Kv",
-    	"resource": "PCH",
-    	"state_variable": "disponible",
-    	"category_id": 1,
-    	"category_type_id": 1,
-    	"category_subtype_id": 2,
+    	"mdm_cod_medidor": "ejemplo",
+    	"mdm_cod_punto_medida": "121",
+    	"chanel": "A",
+    	"cod_bar": "asd123",
+    	"cod_bar_xm": "12345f",
+    	"name": "Alto refinado",
+    	"observation": "disponible",
     	"latitude": "1234.65",
     	"longitude": "654.12.65",
-    	"description": "Mi primera frontera"    
+    	"tension_kv": 1212,
+    	"adms_tag": "R",
+    	"id_c2m": 12,
+    	"cogenerator": true,
+    	"autogenerator": false,
+    	"id_c2m": 12,
+    	"category": "importacion",
+    	"tension_level_id": 3,
+    	"xm_boundary_type_id": 1,
+    	"intern_boundary_type_id": 1,
+    	"xm_agent_id": 1,
+    	"id_city": 1,
+    	"id_zone": 1,
+    	"id_department": 1,
+    	"id_network_operator": 1,
+    	"id_status": 1,
+    	"id_generation_type": 1,
+    	"id_comercial_client": 19,
+    	"id_equation": 301,
+    	"use_type_id": 1
     }
 parameters: []
 headers:
