@@ -1,9 +1,9 @@
 _id: req_5e10b40aa96a4b65904e711a7ccfa6b2
 type: Request
 parentId: fld_606bccd843f545848669104d27edac44
-modified: 1638893975628
+modified: 1638909970977
 created: 1638893854373
-url: http://localhost:4000/api/generationtypes/2
+url: http://localhost:4000/api/generation-types/2
 name: DeleteGenerationType
 description: ""
 method: DELETE

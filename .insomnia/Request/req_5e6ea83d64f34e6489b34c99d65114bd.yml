@@ -1,9 +1,9 @@
 _id: req_5e6ea83d64f34e6489b34c99d65114bd
 type: Request
 parentId: fld_606bccd843f545848669104d27edac44
-modified: 1638893963028
+modified: 1638909960510
 created: 1638893854363
-url: http://localhost:4000/api/generationtypes/2
+url: http://localhost:4000/api/generation-types/2
 name: UpdateGenerationType
 description: ""
 method: PATCH

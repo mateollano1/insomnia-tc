@@ -1,9 +1,9 @@
 _id: req_15ba672395094249af6430fd686f8891
 type: Request
 parentId: fld_f4a0b380a9474ffaae190b0e735d0e8a
-modified: 1638824400639
+modified: 1638910025836
 created: 1638824192820
-url: http://localhost:4000/api/statuses/1
+url: http://localhost:4000/api/status/1
 name: GetByIdStatus
 description: ""
 method: GET

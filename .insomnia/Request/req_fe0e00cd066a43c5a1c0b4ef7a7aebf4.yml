@@ -1,27 +1,28 @@
-_id: req_45c51808e00f4625bfb22a1e9041e4fd
+_id: req_fe0e00cd066a43c5a1c0b4ef7a7aebf4
 type: Request
-parentId: fld_f4a0b380a9474ffaae190b0e735d0e8a
-modified: 1638909992276
-created: 1638824192828
-url: http://localhost:4000/api/status
-name: CreateStatus
+parentId: fld_ef49b6e940e343b084a335199d65d6ea
+modified: 1639057615791
+created: 1639057305521
+url: http://localhost:4000/api/bar-x-boundaries
+name: CreateBarXBoundary
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"name": "Good",
-    	"description": "The first status",
-    	"external_code":"sts456"
+        "id_bar": 1,
+        "id_boundary": 1,
+    		"percent": 75
+    	
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_f41800a41a484bfcb92057135240b14a
+    id: pair_7897f86958334fe69b34e26a3d8a8cb3
 authentication: {}
-metaSortKey: -1637770506238
+metaSortKey: -1638916584104
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

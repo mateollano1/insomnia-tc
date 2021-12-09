@@ -1,9 +1,9 @@
 _id: req_67dda1247573456abad5f9b11db7f066
 type: Request
 parentId: fld_526167a887114cfd93db9f80b5717cee
-modified: 1638834388491
+modified: 1638911400424
 created: 1638834332419
-url: http://localhost:4000/api/networkoperators/2
+url: http://localhost:4000/api/network-operators/2
 name: DeleteNetworkOperator
 description: ""
 method: DELETE

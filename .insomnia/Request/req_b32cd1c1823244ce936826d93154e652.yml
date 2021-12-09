@@ -1,25 +1,27 @@
-_id: req_3ef84790acf44f9aaf381ebd826a0970
+_id: req_b32cd1c1823244ce936826d93154e652
 type: Request
-parentId: fld_107feba87ec04710bcfc35d67bbbfcdd
-modified: 1638910200726
-created: 1638830872399
-url: http://localhost:4000/api/use-types/2
-name: UpdateUseType
+parentId: fld_ef49b6e940e343b084a335199d65d6ea
+modified: 1639057664870
+created: 1639057305524
+url: http://localhost:4000/api/bar-x-boundaries/2
+name: UpdateBarXBoundary
 description: ""
 method: PATCH
 body:
   mimeType: application/json
   text: |-
     {
-        "name": "Super Type"
+    	"id_boundary": 1,
+    	"percent": 60
+    		
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_aae820a7b7ba4174a336c2edf45b780d
+    id: pair_a3b5c71de6f747c1a90020b70fbc920c
 authentication: {}
-metaSortKey: -1637770506313
+metaSortKey: -1638917101521
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

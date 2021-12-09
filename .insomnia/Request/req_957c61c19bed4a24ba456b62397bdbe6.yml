@@ -1,9 +1,9 @@
 _id: req_957c61c19bed4a24ba456b62397bdbe6
 type: Request
 parentId: fld_606bccd843f545848669104d27edac44
-modified: 1638893970380
+modified: 1638909967517
 created: 1638893854367
-url: http://localhost:4000/api/generationtypes/2
+url: http://localhost:4000/api/generation-types/1
 name: GetByIdGenerationType
 description: ""
 method: GET

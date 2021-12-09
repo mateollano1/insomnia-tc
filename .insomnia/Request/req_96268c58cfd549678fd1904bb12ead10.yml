@@ -1,9 +1,9 @@
 _id: req_96268c58cfd549678fd1904bb12ead10
 type: Request
 parentId: fld_526167a887114cfd93db9f80b5717cee
-modified: 1638834393255
+modified: 1638911394931
 created: 1638834332404
-url: http://localhost:4000/api/networkoperators/1
+url: http://localhost:4000/api/network-operators/1
 name: GetByIdNetworkOperator
 description: ""
 method: GET

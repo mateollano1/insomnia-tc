@@ -1,9 +1,9 @@
 _id: req_eded3117dd1e46b3bad650de06cfc04f
 type: Request
 parentId: fld_ee0f705fe1bd4048a0979c338892b7b2
-modified: 1638888820912
+modified: 1638910110575
 created: 1638888661619
-url: http://localhost:4000/api/internboundarytypes/1
+url: http://localhost:4000/api/intern-boundary-types/2
 name: UpdateInternBoundaryType
 description: ""
 method: PATCH
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-        "name": "Three"
+        "name": "Threes"
     }
 parameters: []
 headers:

@@ -1,9 +1,9 @@
 _id: req_9bf54ae2c7724f1b83a1b821984587d9
 type: Request
 parentId: fld_ee0f705fe1bd4048a0979c338892b7b2
-modified: 1638888805450
+modified: 1638910097096
 created: 1638888661630
-url: http://localhost:4000/api/internboundarytypes
+url: http://localhost:4000/api/intern-boundary-types
 name: CreateInternBoundaryType
 description: ""
 method: POST
