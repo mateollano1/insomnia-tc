@@ -1,15 +1,19 @@
 _id: req_96268c58cfd549678fd1904bb12ead10
 type: Request
 parentId: fld_526167a887114cfd93db9f80b5717cee
-modified: 1638911394931
+modified: 1639173270789
 created: 1638834332404
-url: http://localhost:4000/api/network-operators/1
+url: "{{ _.url }}api/network-operators/1"
 name: GetByIdNetworkOperator
 description: ""
 method: GET
 body: {}
 parameters: []
-headers: []
+headers:
+  - id: pair_b709ef872d1c4a72aa611bea831bf172
+    name: ""
+    value: ""
+    description: ""
 authentication: {}
 metaSortKey: -1637770506338
 isPrivate: false

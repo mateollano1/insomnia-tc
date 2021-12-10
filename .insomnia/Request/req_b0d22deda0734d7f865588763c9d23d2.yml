@@ -1,9 +1,9 @@
 _id: req_b0d22deda0734d7f865588763c9d23d2
 type: Request
 parentId: fld_526167a887114cfd93db9f80b5717cee
-modified: 1638911346262
+modified: 1639173225774
 created: 1638834332410
-url: http://localhost:4000/api/network-operators
+url: "{{ _.url }}api/network-operators"
 name: ListNetworkOperator
 description: ""
 method: GET

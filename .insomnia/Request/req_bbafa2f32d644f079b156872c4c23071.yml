@@ -1,9 +1,9 @@
 _id: req_bbafa2f32d644f079b156872c4c23071
 type: Request
 parentId: fld_cce2633d172c4771bf1c0dd88bc7800f
-modified: 1638824827046
+modified: 1639173757400
 created: 1638202585585
-url: http://localhost:4000/api/category/subtypes/2
+url: "{{ _.url }}api/category/subtypes/2"
 name: UpdateSubType
 description: ""
 method: PATCH

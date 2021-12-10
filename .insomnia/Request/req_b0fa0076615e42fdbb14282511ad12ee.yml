@@ -1,9 +1,9 @@
 _id: req_b0fa0076615e42fdbb14282511ad12ee
 type: Request
 parentId: fld_ef49b6e940e343b084a335199d65d6ea
-modified: 1639077284547
+modified: 1639172591183
 created: 1639057305517
-url: http://localhost:4000/api/bar-x-boundaries
+url: "{{ _.url }}api/bar-x-boundaries"
 name: ListBarXBoundary
 description: ""
 method: GET

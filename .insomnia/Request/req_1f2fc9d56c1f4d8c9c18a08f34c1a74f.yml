@@ -1,15 +1,20 @@
 _id: req_1f2fc9d56c1f4d8c9c18a08f34c1a74f
 type: Request
 parentId: fld_cce2633d172c4771bf1c0dd88bc7800f
-modified: 1638825262359
+modified: 1639173761048
 created: 1638196658495
-url: http://localhost:4000/api/tensionLevels/
+url: "{{ _.url }}api/tensionLevels/"
 name: CreateSubtype
 description: ""
-method: GET
+method: POST
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"name": "Hidraulica",
+    	"description": "Primer SubTiy",
+    	"type_id": "1"
+    }
 parameters: []
 headers:
   - name: Content-Type

@@ -1,9 +1,9 @@
 _id: req_a3fc2549e8f24beaa8c7c43a4d4cf296
 type: Request
 parentId: fld_a881ff88e69f451481a703462c28cf88
-modified: 1638909269074
+modified: 1639172809390
 created: 1638832753418
-url: http://localhost:4000/api/xm-boundary-types/2
+url: "{{ _.url }}api/xm-boundary-types/2"
 name: DeleteXmBoundarytype
 description: ""
 method: DELETE

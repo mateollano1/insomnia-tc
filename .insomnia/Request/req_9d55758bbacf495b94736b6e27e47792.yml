@@ -1,9 +1,9 @@
 _id: req_9d55758bbacf495b94736b6e27e47792
 type: Request
 parentId: fld_7ad9995a7700420a8601738b525a59b2
-modified: 1638891567728
+modified: 1639172681794
 created: 1638891523453
-url: http://localhost:4000/api/zones/1
+url: "{{ _.url }}api/zones/1"
 name: DeleteZone
 description: ""
 method: DELETE

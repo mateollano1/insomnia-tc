@@ -1,9 +1,9 @@
 _id: req_aa8b86b616624b838110fe3c286a174b
 type: Request
 parentId: fld_4d01190d6a0748cbb37b08a1d1da735e
-modified: 1639068411815
+modified: 1639172665593
 created: 1638907889229
-url: http://localhost:4000/api/tension-levels
+url: "{{ _.url }}api/tension-levels"
 name: CreateTensionlevel
 description: ""
 method: POST

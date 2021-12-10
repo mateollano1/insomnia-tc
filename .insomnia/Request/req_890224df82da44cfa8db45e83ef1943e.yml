@@ -1,9 +1,9 @@
 _id: req_890224df82da44cfa8db45e83ef1943e
 type: Request
 parentId: fld_9036358cc1604e868f8d47c3811bc737
-modified: 1638909741205
+modified: 1639172787511
 created: 1638841685189
-url: http://localhost:4000/api/xm-agents/1
+url: "{{ _.url }}api/xm-agents/1"
 name: UpdateXmAgent
 description: ""
 method: PATCH

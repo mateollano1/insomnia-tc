@@ -1,9 +1,9 @@
 _id: req_d635b42eb1774b5fbefbaba275f1bf3d
 type: Request
 parentId: fld_04ff3a53f87f4a2f93c8bf9b62aab7a4
-modified: 1639151256102
+modified: 1639172262012
 created: 1639151233202
-url: http://localhost:4000/api/channels/1
+url: "{{ _.url }}api/channels/1"
 name: UpdateChannel
 description: ""
 method: PATCH

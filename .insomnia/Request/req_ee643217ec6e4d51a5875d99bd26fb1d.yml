@@ -1,9 +1,9 @@
 _id: req_ee643217ec6e4d51a5875d99bd26fb1d
 type: Request
 parentId: fld_606bccd843f545848669104d27edac44
-modified: 1638909930443
+modified: 1639172968154
 created: 1638893854369
-url: http://localhost:4000/api/generation-types
+url: "{{ _.url }}api/generation-types"
 name: ListGenerationType
 description: ""
 method: GET

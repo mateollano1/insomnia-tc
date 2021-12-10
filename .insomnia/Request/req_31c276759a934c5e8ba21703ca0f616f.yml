@@ -1,9 +1,9 @@
 _id: req_31c276759a934c5e8ba21703ca0f616f
 type: Request
 parentId: fld_04ff3a53f87f4a2f93c8bf9b62aab7a4
-modified: 1639151285302
+modified: 1639171769236
 created: 1639151271970
-url: http://localhost:4000/api/channels/1
+url: "{{ _.url }}api/channels/1"
 name: DeleteChannel
 description: ""
 method: DELETE

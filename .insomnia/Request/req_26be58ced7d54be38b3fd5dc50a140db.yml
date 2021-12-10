@@ -1,9 +1,9 @@
 _id: req_26be58ced7d54be38b3fd5dc50a140db
 type: Request
 parentId: fld_cce2633d172c4771bf1c0dd88bc7800f
-modified: 1638212407470
+modified: 1639173781646
 created: 1638202555339
-url: http://localhost:4000/api/category/subtypes/1
+url: "{{ _.url }}api/category/subtypes/1"
 name: DeleteSubType
 description: ""
 method: DELETE

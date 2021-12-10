@@ -1,9 +1,9 @@
 _id: req_4261a2fc95ef452da659fc5f4b5cae94
 type: Request
 parentId: fld_ef49b6e940e343b084a335199d65d6ea
-modified: 1639057621943
+modified: 1639172554713
 created: 1639057305530
-url: http://localhost:4000/api/bar-x-boundaries/2
+url: "{{ _.url }}api/bar-x-boundaries/2"
 name: DeleteBarXBoundary
 description: ""
 method: DELETE

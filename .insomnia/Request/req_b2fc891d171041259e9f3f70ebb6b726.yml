@@ -1,9 +1,9 @@
 _id: req_b2fc891d171041259e9f3f70ebb6b726
 type: Request
 parentId: fld_f4a0b380a9474ffaae190b0e735d0e8a
-modified: 1638909986842
+modified: 1639173009736
 created: 1638824192824
-url: http://localhost:4000/api/status
+url: "{{ _.url }}api/status"
 name: ListStatus
 description: ""
 method: GET

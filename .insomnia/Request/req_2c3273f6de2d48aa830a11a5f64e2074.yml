@@ -1,9 +1,9 @@
 _id: req_2c3273f6de2d48aa830a11a5f64e2074
 type: Request
 parentId: fld_04ff3a53f87f4a2f93c8bf9b62aab7a4
-modified: 1639151216361
+modified: 1639172274039
 created: 1639151204013
-url: http://localhost:4000/api/channels/1
+url: "{{ _.url }}api/channels/1"
 name: GetByIdChannel
 description: ""
 method: GET

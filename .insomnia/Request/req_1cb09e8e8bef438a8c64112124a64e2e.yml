@@ -1,9 +1,9 @@
 _id: req_1cb09e8e8bef438a8c64112124a64e2e
 type: Request
 parentId: fld_a881ff88e69f451481a703462c28cf88
-modified: 1638909189803
+modified: 1639172818927
 created: 1638832708671
-url: http://localhost:4000/api/xm-boundary-types/
+url: "{{ _.url }}api/xm-boundary-types/"
 name: ListXmBoundarytype
 description: ""
 method: GET

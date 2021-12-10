@@ -1,9 +1,9 @@
 _id: req_cb2e56a22c744e258ab740d1dd34d668
 type: Request
 parentId: fld_07303cd7589448ac81b698544c9cffbf
-modified: 1639077943782
+modified: 1639172422337
 created: 1639077895378
-url: http://localhost:4000/api/cities/2
+url: "{{ _.url }}api/cities/2"
 name: DeleteCity
 description: ""
 method: DELETE

@@ -1,9 +1,9 @@
 _id: req_10341b32fc534ed5aebd88aa88cd76c0
 type: Request
 parentId: fld_7ad9995a7700420a8601738b525a59b2
-modified: 1638891364582
+modified: 1639172704850
 created: 1638891354992
-url: http://localhost:4000/api/zones/1
+url: "{{ _.url }}api/zones/1"
 name: getByIdZone
 description: ""
 method: GET

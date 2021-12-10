@@ -1,9 +1,9 @@
 _id: req_7d8326f102d44484912c43180f8ae82d
 type: Request
 parentId: fld_07303cd7589448ac81b698544c9cffbf
-modified: 1639077939825
+modified: 1639172462909
 created: 1639077895373
-url: http://localhost:4000/api/cities/2
+url: "{{ _.url }}api/cities/2"
 name: UpdateCity
 description: ""
 method: PATCH

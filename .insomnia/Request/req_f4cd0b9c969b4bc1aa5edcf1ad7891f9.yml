@@ -1,9 +1,9 @@
 _id: req_f4cd0b9c969b4bc1aa5edcf1ad7891f9
 type: Request
 parentId: fld_07303cd7589448ac81b698544c9cffbf
-modified: 1639078085116
+modified: 1639172481798
 created: 1639077895370
-url: http://localhost:4000/api/cities
+url: "{{ _.url }}api/cities"
 name: CreateCity
 description: ""
 method: POST

@@ -1,9 +1,9 @@
 _id: req_c0d2e3b1cf4b4f6cb4e2a6434d999b2c
 type: Request
 parentId: fld_107feba87ec04710bcfc35d67bbbfcdd
-modified: 1638910219205
+modified: 1639173125304
 created: 1638830872412
-url: http://localhost:4000/api/use-types/2
+url: "{{ _.url }}api/use-types/2"
 name: DeleteUseType
 description: ""
 method: DELETE

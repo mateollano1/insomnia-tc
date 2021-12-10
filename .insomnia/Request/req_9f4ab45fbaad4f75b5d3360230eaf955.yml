@@ -1,9 +1,9 @@
 _id: req_9f4ab45fbaad4f75b5d3360230eaf955
 type: Request
 parentId: fld_9036358cc1604e868f8d47c3811bc737
-modified: 1638909729196
+modified: 1639172788975
 created: 1638841534032
-url: http://localhost:4000/api/xm-agents
+url: "{{ _.url }}api/xm-agents"
 name: CreateXmAgent
 description: ""
 method: POST

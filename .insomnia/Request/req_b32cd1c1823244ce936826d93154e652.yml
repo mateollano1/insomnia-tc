@@ -1,9 +1,9 @@
 _id: req_b32cd1c1823244ce936826d93154e652
 type: Request
 parentId: fld_ef49b6e940e343b084a335199d65d6ea
-modified: 1639057664870
+modified: 1639172574798
 created: 1639057305524
-url: http://localhost:4000/api/bar-x-boundaries/2
+url: "{{ _.url }}api/bar-x-boundaries/2"
 name: UpdateBarXBoundary
 description: ""
 method: PATCH

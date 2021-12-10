@@ -1,9 +1,9 @@
 _id: req_b250fca0bac94f4c8eaaa52528f19d36
 type: Request
 parentId: fld_f4a0b380a9474ffaae190b0e735d0e8a
-modified: 1638910040912
+modified: 1639172984692
 created: 1638824192833
-url: http://localhost:4000/api/status/2
+url: "{{ _.url }}api/status/2"
 name: DeleteStatus
 description: ""
 method: DELETE
