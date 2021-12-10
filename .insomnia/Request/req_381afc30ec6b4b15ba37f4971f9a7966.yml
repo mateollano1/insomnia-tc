@@ -1,27 +1,29 @@
-_id: req_b512b9edd3f24a80bbc047ee1ce881a4
+_id: req_381afc30ec6b4b15ba37f4971f9a7966
 type: Request
-parentId: fld_0ff2c49c9c064f0b87fd6dffe05f849b
-modified: 1639151240850
-created: 1638917101521
-url: http://localhost:4000/api/bars/2
-name: UpdateBar
+parentId: fld_04ff3a53f87f4a2f93c8bf9b62aab7a4
+modified: 1639151243594
+created: 1639151132876
+url: http://localhost:4000/api/channels
+name: CreateChannel
 description: ""
-method: PATCH
+method: POST
 body:
   mimeType: application/json
   text: |-
     {
-        "code_bar": 12,
-        "description": "Segunda categoria"
+        
+    	"name": "B",
+      "description": "Primer categoria"
     		
+    	
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_a3b5c71de6f747c1a90020b70fbc920c
+    id: pair_b74816cfc5344001965db37e1c8d59ec
 authentication: {}
-metaSortKey: -1638917101521
+metaSortKey: -1639151132876
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
