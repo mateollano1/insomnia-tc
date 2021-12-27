@@ -1,17 +1,17 @@
-_id: req_31c276759a934c5e8ba21703ca0f616f
+_id: req_15bad4952245431a89f67e69f6ebcd28
 type: Request
-parentId: fld_04ff3a53f87f4a2f93c8bf9b62aab7a4
-modified: 1639417956554
-created: 1639151271970
-url: "{{ _.url }}api/channels/2"
-name: DeleteChannel
+parentId: fld_fcc757e7a7b4497b8ab16f3e1567d2aa
+modified: 1640621051956
+created: 1640620938282
+url: "{{ _.url }}api/entity-values/1"
+name: DeleteEntityValue
 description: ""
 method: DELETE
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1639151271970
+metaSortKey: -1637964812119
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

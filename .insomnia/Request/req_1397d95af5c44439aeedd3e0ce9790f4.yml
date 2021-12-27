@@ -1,7 +1,7 @@
 _id: req_1397d95af5c44439aeedd3e0ce9790f4
 type: Request
 parentId: fld_a881ff88e69f451481a703462c28cf88
-modified: 1639172832082
+modified: 1639422174512
 created: 1638832111977
 url: "{{ _.url }}api/xm-boundary-types"
 name: CreateXmBoundaryType
@@ -11,11 +11,9 @@ body:
   mimeType: application/json
   text: |-
     {
-        "name": "Cogenerador",
-        "description": "Primer categoria",
-    		"external_code": "Ad1223",
-    		"description": "Segundo ejemplo",
-    		"created_at": "2021-11-30T16:29:35.400Z"
+        "name": "BoundType",
+        "description": "Primer XMBoundaryType",
+    		"external_code": "Ad1223"
     	
     }
 parameters: []

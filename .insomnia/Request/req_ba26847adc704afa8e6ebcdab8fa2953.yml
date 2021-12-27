@@ -1,9 +1,9 @@
 _id: req_ba26847adc704afa8e6ebcdab8fa2953
 type: Request
 parentId: fld_07303cd7589448ac81b698544c9cffbf
-modified: 1639172441966
+modified: 1639571684807
 created: 1639077895376
-url: "{{ _.url }}api/cities/2"
+url: "{{ _.url }}api/cities/1"
 name: GetByIdCity
 description: ""
 method: GET

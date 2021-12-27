@@ -1,7 +1,7 @@
 _id: req_fe0e00cd066a43c5a1c0b4ef7a7aebf4
 type: Request
 parentId: fld_ef49b6e940e343b084a335199d65d6ea
-modified: 1639172592216
+modified: 1639417229169
 created: 1639057305521
 url: "{{ _.url }}api/bar-x-boundaries"
 name: CreateBarXBoundary
@@ -11,8 +11,9 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"id_bar": 2,
-    	"id_boundary": 5
+    	"id_bar": 1,
+    	"id_boundary": 1,
+    	"percent": 65
     }
 parameters: []
 headers:

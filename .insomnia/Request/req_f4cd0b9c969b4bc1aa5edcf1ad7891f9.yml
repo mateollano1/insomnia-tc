@@ -1,7 +1,7 @@
 _id: req_f4cd0b9c969b4bc1aa5edcf1ad7891f9
 type: Request
 parentId: fld_07303cd7589448ac81b698544c9cffbf
-modified: 1639172481798
+modified: 1640148835698
 created: 1639077895370
 url: "{{ _.url }}api/cities"
 name: CreateCity
@@ -11,11 +11,11 @@ body:
   mimeType: application/json
   text: |-
     {
-        "code": 12,
+        "code": 8,
         "name": "Medellin",
-        "description": "Primer categoria",
+        "description": "Primera Ciudad",
         "external_code": "Code",
-    		"department_code": "12"	
+    		"department_code": "5"
     }
 parameters: []
 headers:

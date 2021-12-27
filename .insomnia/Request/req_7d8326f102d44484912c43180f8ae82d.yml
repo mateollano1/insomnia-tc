@@ -1,9 +1,9 @@
 _id: req_7d8326f102d44484912c43180f8ae82d
 type: Request
 parentId: fld_07303cd7589448ac81b698544c9cffbf
-modified: 1639172462909
+modified: 1639419346519
 created: 1639077895373
-url: "{{ _.url }}api/cities/2"
+url: "{{ _.url }}api/cities/4"
 name: UpdateCity
 description: ""
 method: PATCH
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-        "code_bar": 12,
-        "description": "Segunda categoria"
+        "description": "Segunda categoria",
+    		"department_code": "5"	
     		
     }
 parameters: []

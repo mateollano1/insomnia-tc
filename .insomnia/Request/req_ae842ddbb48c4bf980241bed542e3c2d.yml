@@ -1,27 +1,26 @@
-_id: req_b512b9edd3f24a80bbc047ee1ce881a4
+_id: req_ae842ddbb48c4bf980241bed542e3c2d
 type: Request
-parentId: fld_0ff2c49c9c064f0b87fd6dffe05f849b
-modified: 1639418083749
-created: 1638917101521
-url: "{{ _.url }}api/bars/2"
-name: UpdateBar
+parentId: fld_ecf8cf2e4356455ba28a583270462bac
+modified: 1640626622261
+created: 1640620800502
+url: "{{ _.url }}api/entity-columns"
+name: CreateEntityColumn
 description: ""
-method: PATCH
+method: POST
 body:
   mimeType: application/json
   text: |-
     {
-        "code_bar": 12,
-        "description": "Another categoria"
-    		
+    	"name": "Network Operator",
+    	"nameMDM": "Operador de Red"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_a3b5c71de6f747c1a90020b70fbc920c
+    id: pair_f41800a41a484bfcb92057135240b14a
 authentication: {}
-metaSortKey: -1638917101521
+metaSortKey: -1637770506238
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

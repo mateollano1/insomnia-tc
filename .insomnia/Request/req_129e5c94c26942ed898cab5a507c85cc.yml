@@ -1,7 +1,7 @@
 _id: req_129e5c94c26942ed898cab5a507c85cc
 type: Request
 parentId: fld_e25363040ce244558416030952284653
-modified: 1639172517367
+modified: 1639418183935
 created: 1639078110090
 url: "{{ _.url }}api/departments/2"
 name: UpdateDepartment
@@ -11,9 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-        "code_bar": 12,
-        "description": "Segunda categoria"
-    		
+        "description": "Segunda categoria"	
     }
 parameters: []
 headers:

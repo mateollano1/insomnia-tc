@@ -1,7 +1,7 @@
 _id: req_9f4ab45fbaad4f75b5d3360230eaf955
 type: Request
 parentId: fld_9036358cc1604e868f8d47c3811bc737
-modified: 1639172788975
+modified: 1639422140549
 created: 1638841534032
 url: "{{ _.url }}api/xm-agents"
 name: CreateXmAgent
@@ -11,11 +11,9 @@ body:
   mimeType: application/json
   text: |-
     {
-        "name": "Cogenerador",
-        "description": "Primer categoria",
-    		"external_code": "Ad1223",
-    		"description": "Segundo ejemplo",
-    		"created_at": "2021-11-30T16:29:35.400Z"
+        "name": "The agent XM",
+        "description": "Primer XmAgen",
+    		"external_code": "Ad1223"
     	
     }
 parameters: []

@@ -1,0 +1,38 @@
+_id: req_dbcaad5642d04de3bb1f7a03861b0875
+type: Request
+parentId: fld_ecf8cf2e4356455ba28a583270462bac
+modified: 1640633332998
+created: 1640620800497
+url: "{{ _.url }}api/entity-columns"
+name: ListEntityColumn
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_ccbda758023c47f1aa69228e2522164e
+    name: name
+    value: Network Operator
+    description: ""
+    disabled: true
+  - id: pair_0a4db5c4b29c43cb8d64d06e82f6c4b3
+    name: description
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_4ff78ffbcdb64ade9147b3f8b4206bb9
+    name: created_at
+    value: ""
+    description: ""
+    type: text
+    multiline: false
+    disabled: true
+headers: []
+authentication: {}
+metaSortKey: -1637770506288
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

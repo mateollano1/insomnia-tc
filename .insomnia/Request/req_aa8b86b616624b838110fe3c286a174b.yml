@@ -1,7 +1,7 @@
 _id: req_aa8b86b616624b838110fe3c286a174b
 type: Request
 parentId: fld_4d01190d6a0748cbb37b08a1d1da735e
-modified: 1639172665593
+modified: 1639422077162
 created: 1638907889229
 url: "{{ _.url }}api/tension-levels"
 name: CreateTensionlevel
@@ -15,9 +15,7 @@ body:
         "description": "Primer categoria",
     		"external_code": "Ad1223",
     	  "init_range": 123,
-    		"end_range": 21,
-    		"description": "Segundo ejemplo",
-    		"created_at": "2021-11-30T16:29:35.400Z"
+    		"end_range": 21
     	
     }
 parameters: []

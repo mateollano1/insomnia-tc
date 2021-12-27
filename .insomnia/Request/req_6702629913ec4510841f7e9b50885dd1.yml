@@ -1,7 +1,7 @@
 _id: req_6702629913ec4510841f7e9b50885dd1
 type: Request
 parentId: fld_a881ff88e69f451481a703462c28cf88
-modified: 1639172825953
+modified: 1640146300259
 created: 1638832608791
 url: "{{ _.url }}api/xm-boundary-types/1"
 name: UpdateXmBoundaryType
@@ -13,9 +13,7 @@ body:
     {
         "name": "Ejemplo",
         "description": "X categoria",
-    		"external_code": "Bv1223",
-    		"description": "Segundo ejemplo",
-    		"created_at": "2019-11-30T16:29:35.400Z"
+    		"external_code": "Bv1223"
     	
     }
 parameters: []

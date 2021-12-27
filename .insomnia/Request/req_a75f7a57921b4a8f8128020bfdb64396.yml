@@ -1,20 +1,21 @@
-_id: req_92055ef0f7f241fcb66d77979d944aca
+_id: req_a75f7a57921b4a8f8128020bfdb64396
 type: Request
-parentId: fld_107feba87ec04710bcfc35d67bbbfcdd
-modified: 1639422233178
-created: 1638830872410
-url: "{{ _.url }}api/use-types"
-name: CreateUseType
+parentId: fld_fcc757e7a7b4497b8ab16f3e1567d2aa
+modified: 1640626650834
+created: 1640620938273
+url: "{{ _.url }}api/entity-values"
+name: CreateEntityValue
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"name": "The use type",
-    	"code": 7,
-    	"description": "The first use type",
-    	"external_code":"typ456"
+    	"name": "NO 323",
+    	"code": 1,
+    	"entity_column_id": 2,
+    	"description": "The first Netwokrk",
+    	"external_code":"NOP456"
     }
 parameters: []
 headers:

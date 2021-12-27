@@ -1,0 +1,25 @@
+_id: req_21f43231c6ca4a8f86e78696b77aa10a
+type: Request
+parentId: fld_fcc757e7a7b4497b8ab16f3e1567d2aa
+modified: 1640621049002
+created: 1640620938267
+url: "{{ _.url }}api/entity-values/1"
+name: GetByIdEntityValue
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_b709ef872d1c4a72aa611bea831bf172
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1637770506338
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,7 +1,7 @@
 _id: req_8ee795161c374888befc4357448b5b66
 type: Request
 parentId: fld_606bccd843f545848669104d27edac44
-modified: 1639172974278
+modified: 1639422202623
 created: 1638893854371
 url: "{{ _.url }}api/generation-types"
 name: CreateGenerationType
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-        "name": "Medallo",
-        "description": "Genera energia"  
+        "name": "Classic Generator",
+        "description": "First Generator Typr"  
     }
 parameters: []
 headers:

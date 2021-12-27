@@ -1,7 +1,7 @@
 _id: req_a9411a162fee470ebf240636dfe74947
 type: Request
 parentId: fld_e25363040ce244558416030952284653
-modified: 1639172530130
+modified: 1639418699663
 created: 1639078110088
 url: "{{ _.url }}api/departments"
 name: CreateDepartment
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-        "code": 12,
+        "code": 5,
         "name": "Antioquia",
         "description": "Primer departamento",
         "external_code": "Code"

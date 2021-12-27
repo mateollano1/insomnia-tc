@@ -1,7 +1,7 @@
 _id: req_bba84187568b4ea8b58ac6b148b05f7a
 type: Request
 parentId: fld_e25363040ce244558416030952284653
-modified: 1639172506550
+modified: 1639418190654
 created: 1639078110092
 url: "{{ _.url }}api/departments/2"
 name: GetByIdDepartment

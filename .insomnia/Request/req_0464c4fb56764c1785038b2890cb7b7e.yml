@@ -1,7 +1,7 @@
 _id: req_0464c4fb56764c1785038b2890cb7b7e
 type: Request
 parentId: fld_7ad9995a7700420a8601738b525a59b2
-modified: 1639172721788
+modified: 1639422110866
 created: 1638891254101
 url: "{{ _.url }}api/zones"
 name: CreateZone
@@ -12,9 +12,9 @@ body:
   text: |-
     {
     	"name": "Zone 323",
-    	"code": 7,
-    	"description": "The first operator",
-    	"external_code":"opt456"
+    	"code": 1,
+    	"description": "The first zone",
+    	"external_code":"zon456"
     }
 parameters: []
 headers:
