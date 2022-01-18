@@ -1,0 +1,31 @@
+_id: req_ea1094800ba441bbb5b4eacec20989e9
+type: Request
+parentId: fld_3f7acee007dd400a84c90f9937263f3a
+modified: 1642465921756
+created: 1642463432932
+url: "{{ _.url }}api/boundary-x-equation"
+name: CreateBoundaryXEquation
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"demand_equation_id": 1,
+    	"boundary_id": "FRT00005",
+    	"sign": "+"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7897f86958334fe69b34e26a3d8a8cb3
+authentication: {}
+metaSortKey: -1638916584104
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

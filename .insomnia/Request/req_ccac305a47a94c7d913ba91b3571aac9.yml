@@ -1,0 +1,35 @@
+_id: req_ccac305a47a94c7d913ba91b3571aac9
+type: Request
+parentId: fld_b410a3c245b64e2ca235d3ea9f97a79b
+modified: 1642461518338
+created: 1642460349892
+url: "{{ _.url }}api/demand-equation/1"
+name: UpdateDemandEquation
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "code": 8,
+        "init_date": "2022-01-13T15:07:36.183Z",
+        "final_date": "2022-01-13T15:07:36.183Z",
+        "is_active": true,
+        "url_ecuation": "myurl",
+    		"market_id": 1,
+    		"type_id": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a3b5c71de6f747c1a90020b70fbc920c
+authentication: {}
+metaSortKey: -1638917101521
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

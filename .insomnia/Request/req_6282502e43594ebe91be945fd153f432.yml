@@ -1,0 +1,48 @@
+_id: req_6282502e43594ebe91be945fd153f432
+type: Request
+parentId: fld_f2fa8e3f923f4f829e9002a781f77ac0
+modified: 1642091683102
+created: 1642090394515
+url: "{{ _.url }}api/boundaries/multiple"
+name: CreateMultiple
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    [
+    	{
+    		"sic_code": "asdqwe",
+    		"entities": [
+    			{
+    				"name": "string",
+    				"id": 2,
+    				"value": "string"
+    			}
+    		]
+    	},
+    		{
+    			"sic_code": "qweasd",
+    		"entities": [
+    			{
+    				"name": "string",
+    				"id": 2,
+    				"value": "string"
+    			}
+    		]
+    	}
+    ]
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_1dcb9b1967434e0d94a55f365f0dce8f
+authentication: {}
+metaSortKey: -1637707220356.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

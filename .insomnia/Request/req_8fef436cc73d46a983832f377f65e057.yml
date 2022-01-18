@@ -1,0 +1,29 @@
+_id: req_8fef436cc73d46a983832f377f65e057
+type: Request
+parentId: fld_538da25b1557465fb39bdd086179d332
+modified: 1642465863420
+created: 1642461370456
+url: "{{ _.url }}api/type-demand-equation"
+name: CreateTypeDemandEquation
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "name": "First Type"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7897f86958334fe69b34e26a3d8a8cb3
+authentication: {}
+metaSortKey: -1638916584104
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

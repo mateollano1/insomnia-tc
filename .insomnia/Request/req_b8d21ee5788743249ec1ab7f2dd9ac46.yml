@@ -1,0 +1,21 @@
+_id: req_b8d21ee5788743249ec1ab7f2dd9ac46
+type: Request
+parentId: fld_8de23f8726514319834ededcd2c280a7
+modified: 1641312867108
+created: 1641312867108
+url: "{{ _.url }}api/entity-x-boundaries/7"
+name: DeleteEntityMarketBoundary
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1637964812119
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

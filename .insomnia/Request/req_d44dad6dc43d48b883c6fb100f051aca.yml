@@ -1,0 +1,21 @@
+_id: req_d44dad6dc43d48b883c6fb100f051aca
+type: Request
+parentId: fld_b410a3c245b64e2ca235d3ea9f97a79b
+modified: 1642460832216
+created: 1642460349898
+url: "{{ _.url }}api/demand-equation/2"
+name: DeleteDemandEquation
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1638917173953
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

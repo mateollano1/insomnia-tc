@@ -1,0 +1,35 @@
+_id: req_a0e3b4f624424cde9e3948f6d30227a7
+type: Request
+parentId: fld_b410a3c245b64e2ca235d3ea9f97a79b
+modified: 1642465887762
+created: 1642460349887
+url: "{{ _.url }}api/demand-equation"
+name: CreateDemandEquation
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "code": 8,
+        "init_date": "2022-01-13T15:07:36.183Z",
+        "final_date": "2022-01-13T15:07:36.183Z",
+        "is_active": true,
+        "url_ecuation": "myurl",
+    		"market_id": 2,
+    		"type_id": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7897f86958334fe69b34e26a3d8a8cb3
+authentication: {}
+metaSortKey: -1638916584104
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

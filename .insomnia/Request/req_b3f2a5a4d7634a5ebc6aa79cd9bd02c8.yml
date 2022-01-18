@@ -1,0 +1,31 @@
+_id: req_b3f2a5a4d7634a5ebc6aa79cd9bd02c8
+type: Request
+parentId: fld_3f7acee007dd400a84c90f9937263f3a
+modified: 1642464326849
+created: 1642463432938
+url: "{{ _.url }}api/boundary-x-equation/3"
+name: UpdateBoundaryXEquation
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id_boundary": 1,
+    	"percent": 60
+    		
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a3b5c71de6f747c1a90020b70fbc920c
+authentication: {}
+metaSortKey: -1638917101521
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

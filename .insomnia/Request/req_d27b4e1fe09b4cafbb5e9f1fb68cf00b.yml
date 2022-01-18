@@ -1,0 +1,84 @@
+_id: req_d27b4e1fe09b4cafbb5e9f1fb68cf00b
+type: Request
+parentId: fld_052fa316b24a4c719584b6d862ca4a98
+modified: 1642091774205
+created: 1642087425800
+url: "{{ _.url }}api/entity-x-boundaries/multiple"
+name: CreateMultiple
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    [
+    	{
+    		"boundary_id": 31,
+    		"entity_value_id": 5
+    	},
+    	{
+    		"boundary_id": 31,
+    		"entity_value_id": 5
+    	},
+    	{
+    		"boundary_id": 31,
+    		"entity_value_id": 5
+    	},
+    	{
+    		"boundary_id": 31,
+    		"entity_value_id": 5
+    	},
+    	{
+    		"boundary_id": 31,
+    		"entity_value_id": 5
+    	},
+    	{
+    		"boundary_id": 31,
+    		"entity_value_id": 5
+    	},
+    	{
+    		"boundary_id": 31,
+    		"entity_value_id": 5
+    	},
+    	{
+    		"boundary_id": 31,
+    		"entity_value_id": 5
+    	},
+    	{
+    		"boundary_id": 31,
+    		"entity_value_id": 5
+    	},
+    	{
+    		"boundary_id": 31,
+    		"entity_value_id": 5
+    	},
+    	{
+    		"boundary_id": 31,
+    		"entity_value_id": 5
+    	},
+    	{
+    		"boundary_id": 31,
+    		"entity_value_id": 5
+    	},
+    	{
+    		"boundary_id": 31,
+    		"entity_value_id": 5
+    	},
+    	{
+    		"boundary_id": 31,
+    		"entity_value_id": 5
+    	}
+    ]
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_fadad4714aba4e55b655d22f8e1cba7e
+authentication: {}
+metaSortKey: -1642087425800
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_fcc82c925e17490dbbe83b62cf79dab9
+type: Request
+parentId: fld_538da25b1557465fb39bdd086179d332
+modified: 1642461470882
+created: 1642461370458
+url: "{{ _.url }}api/type-demand-equation/1"
+name: UpdateTypeDemandEquation
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "name": "First Type"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a3b5c71de6f747c1a90020b70fbc920c
+authentication: {}
+metaSortKey: -1638917101521
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

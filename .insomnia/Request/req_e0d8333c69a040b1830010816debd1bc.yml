@@ -1,0 +1,21 @@
+_id: req_e0d8333c69a040b1830010816debd1bc
+type: Request
+parentId: fld_3f7acee007dd400a84c90f9937263f3a
+modified: 1642465916707
+created: 1642463432921
+url: "{{ _.url }}api/boundary-x-equation"
+name: ListBoundaryXEquation
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1638916567537.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

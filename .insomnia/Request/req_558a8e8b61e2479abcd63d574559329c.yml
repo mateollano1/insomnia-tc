@@ -1,0 +1,29 @@
+_id: req_558a8e8b61e2479abcd63d574559329c
+type: Request
+parentId: fld_8de23f8726514319834ededcd2c280a7
+modified: 1641312867091
+created: 1641312867091
+url: "{{ _.url }}api/entity-x-markets-x-boundaries/1"
+name: UpdateEntityMarketBoundary
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "name": "Super network"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_aae820a7b7ba4174a336c2edf45b780d
+authentication: {}
+metaSortKey: -1637770506313
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

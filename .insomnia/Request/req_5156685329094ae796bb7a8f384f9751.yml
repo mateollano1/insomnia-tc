@@ -1,0 +1,25 @@
+_id: req_5156685329094ae796bb7a8f384f9751
+type: Request
+parentId: fld_8de23f8726514319834ededcd2c280a7
+modified: 1641312867100
+created: 1641312867100
+url: "{{ _.url }}api/entity-x-markets-x-boundaries/1"
+name: GetByIdEntityMarketBoundary
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_b709ef872d1c4a72aa611bea831bf172
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1637770506338
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

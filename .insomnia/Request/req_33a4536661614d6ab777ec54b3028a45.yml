@@ -1,0 +1,21 @@
+_id: req_33a4536661614d6ab777ec54b3028a45
+type: Request
+parentId: fld_3f7acee007dd400a84c90f9937263f3a
+modified: 1642464321291
+created: 1642463432940
+url: "{{ _.url }}api/boundary-x-equation/1"
+name: GetByIdBoundaryXEquation
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1638917153957
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

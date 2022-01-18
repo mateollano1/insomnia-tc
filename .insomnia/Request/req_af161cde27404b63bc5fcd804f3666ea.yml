@@ -1,0 +1,21 @@
+_id: req_af161cde27404b63bc5fcd804f3666ea
+type: Request
+parentId: fld_b410a3c245b64e2ca235d3ea9f97a79b
+modified: 1642460830289
+created: 1642460349895
+url: "{{ _.url }}api/demand-equation/1"
+name: GetByIdDemandEquation
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1638917153957
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

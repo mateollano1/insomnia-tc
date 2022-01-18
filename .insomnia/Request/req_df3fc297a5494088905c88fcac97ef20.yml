@@ -1,0 +1,30 @@
+_id: req_df3fc297a5494088905c88fcac97ef20
+type: Request
+parentId: fld_8de23f8726514319834ededcd2c280a7
+modified: 1641324472362
+created: 1641312867106
+url: "{{ _.url }}api/entity-x-markets"
+name: CreateEntityMarketBoundary
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"market_id": 1,
+    	"entity_value_id": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f41800a41a484bfcb92057135240b14a
+authentication: {}
+metaSortKey: -1637770506238
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

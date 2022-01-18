@@ -1,0 +1,21 @@
+_id: req_f585a2fffed24d9786ab4e90d20869b4
+type: Request
+parentId: fld_538da25b1557465fb39bdd086179d332
+modified: 1642465858882
+created: 1642461370445
+url: "{{ _.url }}api/type-demand-equation"
+name: ListTypeDemandEquation
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1638916550971
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

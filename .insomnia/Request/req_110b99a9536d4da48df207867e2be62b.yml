@@ -1,0 +1,43 @@
+_id: req_110b99a9536d4da48df207867e2be62b
+type: Request
+parentId: fld_8de23f8726514319834ededcd2c280a7
+modified: 1641312941755
+created: 1641312867103
+url: "{{ _.url }}api/entity-x-markets"
+name: ListEntityMarketBoundary
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_ccbda758023c47f1aa69228e2522164e
+    name: name
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_0a4db5c4b29c43cb8d64d06e82f6c4b3
+    name: description
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_4ff78ffbcdb64ade9147b3f8b4206bb9
+    name: created_at
+    value: ""
+    description: ""
+    type: text
+    multiline: false
+    disabled: true
+  - id: pair_348188dd945745aba042a531bb498dc7
+    name: boundary_id
+    value: "8"
+    description: ""
+    disabled: true
+headers: []
+authentication: {}
+metaSortKey: -1637770506288
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
