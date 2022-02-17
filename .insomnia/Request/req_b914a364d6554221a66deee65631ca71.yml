@@ -1,0 +1,31 @@
+_id: req_b914a364d6554221a66deee65631ca71
+type: Request
+parentId: fld_cc0b0ae530ce49bcbdafa7da7798e282
+modified: 1645107239468
+created: 1645107067817
+url: "{{ _.url }}api/event/multiple"
+name: CreateEventMultiple
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    [{
+    	"demand_equation_id": 1,
+    	"boundary_id": "FRT00005",
+    	"sign": "+"
+    }]
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7897f86958334fe69b34e26a3d8a8cb3
+authentication: {}
+metaSortKey: -1638916575820.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

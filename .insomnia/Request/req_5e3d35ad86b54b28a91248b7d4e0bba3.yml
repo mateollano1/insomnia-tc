@@ -1,0 +1,21 @@
+_id: req_5e3d35ad86b54b28a91248b7d4e0bba3
+type: Request
+parentId: fld_cc0b0ae530ce49bcbdafa7da7798e282
+modified: 1645107206890
+created: 1645107067785
+url: "{{ _.url }}api/event"
+name: ListEvent
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1638916567537.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

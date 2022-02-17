@@ -1,0 +1,125 @@
+_id: req_09649795fb76405f81b928093922dd45
+type: Request
+parentId: fld_f2fa8e3f923f4f829e9002a781f77ac0
+modified: 1643662881848
+created: 1643662391619
+url: "{{ _.url }}api/boundaries/multiple"
+name: ListBoundaryFromCodes
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_7223d19728e3453c83dab255138518af
+    name: market_id
+    value: "1"
+    description: ""
+    disabled: true
+  - id: pair_ff45eadbc43f49c6a1fac36c651272a8
+    name: created_at
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_9069565bdf344ca982dfd398bfba5da6
+    name: border_type
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_4ac0f9ca5577496c93bd5ee8b81dcce8
+    name: name
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_5997801fa0ec4e42b2db829e54476dd3
+    name: adms_code
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_8d99e05fa0354bc3a68fe253de6cb447
+    name: mdm_code
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_98fcd68294764be9a428fa88bf148a68
+    name: bar_type
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_48434ed325f54967bab84997d86152d0
+    name: resource
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_379d2ed890794d6384fb4a9f806698dc
+    name: state_variable
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_736991a25a1e446ea77dfbc2b1cf333c
+    name: category_id
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_099274a6e2074dd58c5f2c34ece00bfd
+    name: category_type_id
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_4b7b585f3fbf4cf791a6b7a064b11a1f
+    name: category_subtype_id
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_3b7ff7af72df49589f3d33ced5b0844c
+    name: latitude
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_3d57b9b3ed0543dc8435046107da9440
+    name: longitude
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_4af5c8dfd6914376b2f12971abce635a
+    name: description
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_562f7677c4d84ec0bfd781539f99137b
+    name: category
+    value: importacion
+    description: ""
+    disabled: true
+  - id: pair_b58d8317be0640118c559c59c990e30b
+    name: values
+    value: 0,99,The first Zone
+    description: ""
+    disabled: true
+  - id: pair_8c800c27bbb54cf798fdff4d852552ca
+    name: columns
+    value: skip,limit,zone
+    description: ""
+    disabled: true
+  - id: pair_68672c08af3f4307ab99231827362f3c
+    name: entities
+    value: "1"
+    description: ""
+    disabled: true
+  - id: pair_b527ca6b403047f59c0cf29b2ae26624
+    name: entities
+    value: "2"
+    description: ""
+    disabled: true
+  - id: pair_ae5de75859f14433b4e87b5c629f8da5
+    name: codes
+    value: FRT00005
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1637678836156.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

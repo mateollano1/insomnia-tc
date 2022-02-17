@@ -1,0 +1,21 @@
+_id: req_0cf58570f7b948aebd1d527e31fef77a
+type: Request
+parentId: fld_cc0b0ae530ce49bcbdafa7da7798e282
+modified: 1645107233546
+created: 1645107067814
+url: "{{ _.url }}api/boundary-x-equation/3"
+name: DeleteEvent
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1638917173953
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
